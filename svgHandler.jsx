@@ -5,13 +5,13 @@ import { ReactComponent as Github } from './assets/github.svg';
 export default function Header() {
   return (
     <div className="header">
-      <Github className="twitter-icon" />
+      <Github className="github-icon" />
     </div>
   );
 }
 // css:
 //
-// .twitter-icon{
+// .github-icon{
 //   height: 60%;
 //   fill: #FD971F;
 // }
