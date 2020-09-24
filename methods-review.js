@@ -43,3 +43,10 @@ const reducedData = data.reduce((acc, current) => acc + current, 0);
 console.log(reducedData);
 // 10
 
+//string reverser
+function reverseString(str) {
+  return str.split('').reduce((reversed, element) => {
+    return element + reversed
+  }, '')
+}
+console.log(reverseString('mississippi'))
