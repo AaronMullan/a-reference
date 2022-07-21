@@ -1,4 +1,5 @@
 const data = [1, 2, 3, 4]
+console.log(Array.isArray(data))
 
 //slice
 const slicedOffStart = data.slice(1);
@@ -50,3 +51,13 @@ function reverseString(str) {
   }, '')
 }
 console.log(reverseString('mississippi'))
+
+const adder = (a, b) => {
+  return (a + b)
+}
+const added = adder(5, 2);
+console.log(added)
+
+2 == 2 ? console.log('hi') : console.log('hello')
+
+console.log(adder.toString())

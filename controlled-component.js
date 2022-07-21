@@ -23,7 +23,6 @@ function App() {
         />
         <button onClick={handleSubmit}>Submit</button>
       </form>
-
     </div>
   )
 }
